@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+  }
+
+  .column-1, .column-2,.column-3 {
+    flex: 1;
+    padding: 10px;
+    height: 500px;
+  }
+  .column-1 {
+    background-image: url('../Imagenes/inicio.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .column-2 {
+    background: rgb(212, 208, 208);
+  }
+
+  .column-2 p {
+     padding-top: 10px;
+     font-size: 20px;
+  }
+
+  .column-3 {
+    background: rgb(187, 187, 187);
+  }
+
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
