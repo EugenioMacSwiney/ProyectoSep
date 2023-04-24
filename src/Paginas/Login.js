@@ -1,20 +1,20 @@
 import React from 'react';
-import Encabezado from '../Componentes/encabezado';
-import Contenido from '../Componentes/contenido';
-import Footer from '../Componentes/footer';
 import Menu from '../Componentes/menu';
+import Encabezado from '../Componentes/encabezado';
+import InicioSesion from '../Componentes/inicio-sesion';
+import Footer from '../Componentes/footer';
 
 
-function Inicio() {
+function Login() {
   return (
     <div>
-        <Menu />
+        <Menu/>
+        <h2>Login</h2>
         <Encabezado />
-        <Contenido />
+        <InicioSesion />
         <Footer />
-        
     </div>
   );
 }
 
-export default Inicio;
+export default Login;

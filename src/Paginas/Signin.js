@@ -1,20 +1,21 @@
 import React from 'react';
 import Encabezado from '../Componentes/encabezado';
-import Contenido from '../Componentes/contenido';
 import Footer from '../Componentes/footer';
 import Menu from '../Componentes/menu';
+import Registro from '../Componentes/registro';
 
 
-function Inicio() {
+function Signin() {
   return (
     <div>
         <Menu />
+        <h2>Registro de usuarios</h2>
         <Encabezado />
-        <Contenido />
+        <Registro />
         <Footer />
         
     </div>
   );
 }
 
-export default Inicio;
+export default Signin;
